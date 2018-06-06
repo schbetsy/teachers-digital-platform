@@ -30,14 +30,3 @@ module.exports = {
         return _genericCopy( icons.src, icons.dest );
     }
 };
-
-// gulp.task( 'copy:icons', () => {
-//   const icons = configCopy.icons;
-//   return _genericCopy( icons.src, icons.dest );
-// } );
-
-// gulp.task( 'copy',
-//     gulp.series(
-//         'copy:icons'
-//     )
-// );

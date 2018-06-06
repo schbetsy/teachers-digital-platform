@@ -45,11 +45,3 @@ function scriptsModern() {
 module.exports = {
     scriptsModern: scriptsModern
 }
-
-// gulp.task( 'scripts:modern', scriptsModern );
-
-// gulp.task( 'scripts', 
-//     gulp.series(     
-//     'scripts:modern'
-//     )
-// );

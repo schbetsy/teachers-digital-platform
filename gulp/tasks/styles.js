@@ -46,12 +46,3 @@ function stylesModern() {
 module.exports = {
     stylesModern: stylesModern
 };
-
-
-// gulp.task( 'styles:modern', stylesModern );
-
-// gulp.task( 'styles', 
-//     gulp.series(
-//         'styles:modern'
-//     )
-// );
