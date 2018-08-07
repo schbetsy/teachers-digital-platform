@@ -28,11 +28,12 @@ setup(
     description='Teachers digital platform',
     long_description=long_description,
     license='CC0',
-    version_format='{tag}',
+    version_format='{tag}.dev{commitcount}+{gitsha}',
     include_package_data=True,
     packages=find_packages(),
     package_data={
         'teachers_digital_platform': [
+            'fixtures/tdp_initial_data.json',
             'jinja2/teachers_digital_platform/*',
             'jinja2/teachers_digital_platform/prototypes/*',
             'static/tdp/css/*',
